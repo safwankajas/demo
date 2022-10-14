@@ -1,0 +1,667 @@
+@import"https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&family=Tomorrow:wght@400;500&display=swap";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Manrope", sans-serif
+}
+
+::-moz-placeholder {
+    padding-left: 20px
+}
+
+:-ms-input-placeholder {
+    padding-left: 20px
+}
+
+::placeholder {
+    padding-left: 20px
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px
+}
+
+.navbar__logo {
+    width: 130px;
+    height: 48px;
+    margin-left: 10%;
+    padding: 25px 10px
+}
+
+.navbar__block__list {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: .1em;
+    font-weight: 700;
+    font-size: 16px;
+    color: #414141;
+    padding: 15px 50px;
+    list-style: none
+}
+
+.navbar__block__list--active {
+    color: #000;
+    margin-top: 13px;
+    border-bottom: 3px solid green
+}
+
+.home {
+    background: #faf8f8;
+    min-height: 80vh;
+    display: flex
+}
+
+.home__block1 {
+    width: 50%
+}
+
+.home__block1__box {
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    margin-top: 150px;
+    margin-left: 145px
+}
+
+.home__block1__box__box1,
+.home__block1__box__box2,
+.home__block1__box__box3 {
+    width: 18px;
+    margin: 0px 6px;
+    background-color: #d9d9d9;
+    height: 4px
+}
+
+.home__block1__box__box1--active,
+.home__block1__box__box2--active,
+.home__block1__box__box3--active {
+    background: #020202
+}
+
+.home__block1__text {
+    margin-top: 210px;
+    margin-left: 140px;
+    font-size: 48px;
+    width: 620px;
+    font-weight: 500
+}
+
+.home__block1__button {
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 140px;
+    height: 48px;
+    width: 255px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+    background: #95c24d;
+    color: #fff
+}
+
+.home__block2 {
+    width: 50%;
+    overflow: hidden
+}
+
+.home__block2 img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%
+}
+
+.support {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #fff;
+    height: 390px
+}
+
+.support__block1 {
+    flex: 1;
+    margin-left: 140px;
+    margin-top: 118px;
+    font-size: 36px;
+    font-weight: 500
+}
+
+.support__block1__text {
+    position: absolute;
+    width: 500px
+}
+
+.support__block2 {
+    flex: 1
+}
+
+.support__block2__img {
+    margin: 50px 140px
+}
+
+.service {
+    width: 100%;
+    min-height: 720px;
+    background-color: #f4f4f4
+}
+
+.service__text {
+    position: absolute;
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 80px;
+    margin-left: 140px
+}
+
+.service__block {
+    position: absolute;
+    display: flex;
+    margin-top: 205px;
+    width: 100%
+}
+
+.service__block__left {
+    width: 65%
+}
+
+.service__block__left__top,
+.service__block__left__bottom {
+    display: flex;
+    margin-left: 140px
+}
+
+.service__block__left__top__card,
+.service__block__left__bottom__card {
+    background-color: #fff;
+    padding: auto;
+    margin: 10px 10px;
+    width: 266px;
+    height: 188px;
+    align-items: center;
+    text-align: center
+}
+
+.service__block__left__top__card__photo,
+.service__block__left__bottom__card__photo {
+    padding-right: 0px;
+    margin: 10px auto;
+    margin-right: 10px;
+    width: 138px;
+    height: 138px
+}
+
+.service__block__left__top__card__text,
+.service__block__left__bottom__card__text {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 500;
+    font-size: 20px
+}
+
+.service__block__right {
+    width: 50%;
+    margin-left: 10px
+}
+
+.service__block__right__card {
+    position: absolute;
+    margin-top: 10px;
+    background: #95c24d;
+    width: 263px;
+    height: 400px
+}
+
+.service__block__right__card__head {
+    position: absolute;
+    font-size: 36px;
+    font-weight: 500;
+    width: 150px;
+    margin-left: 32px;
+    margin-top: 38px
+}
+
+.service__block__right__card__photo {
+    margin-left: 146px;
+    margin-top: 70px;
+    width: 64px;
+    height: 194px
+}
+
+.service__block__right__card__text {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 264px;
+    margin-left: 32px
+}
+
+.service__block__right__card__boder {
+    margin-left: 32px;
+    width: 178px;
+    height: 1px;
+    background: #fff;
+    margin-top: 25px
+}
+
+.service__block__right__card__footer {
+    position: absolute;
+    margin-left: 32px;
+    margin-top: 18px;
+    font-size: 12px;
+    font-weight: 500px
+}
+
+.utilities {
+    min-height: 610px;
+    background-color: #fff
+}
+
+.utilities__text {
+    position: absolute;
+    margin-top: 86px;
+    margin-left: 140px;
+    font-size: 48px;
+    font-weight: 500
+}
+
+.utilities__photo {
+    margin-top: 86px;
+    margin-left: 945px
+}
+
+.utilities__box {
+    display: flex;
+    margin-left: 140px;
+    margin-top: 52px
+}
+
+.utilities__box__card {
+    width: 266px;
+    height: 307px;
+    margin: 32px;
+    border: 1px solid #ececec
+}
+
+.utilities__box__card__photo {
+    overflow: hidden;
+    width: 100px;
+    height: 90px;
+    margin-top: 30%;
+    margin-left: 30%
+}
+
+.utilities__box__card__photo__1,
+.utilities__box__card__photo__3 {
+    margin-left: -30px
+}
+
+.utilities__box__card__photo__3 {
+    margin-top: -15px
+}
+
+.utilities__box__card__photo__4 {
+    margin-top: 10px
+}
+
+.utilities__box__card__text {
+    margin-top: 65px;
+    width: 201px;
+    height: 44px;
+    margin-left: 30px
+}
+
+.about {
+    height: 1096px
+}
+
+.about__top {
+    display: flex
+}
+
+.about__top__left {
+    width: 50%;
+    background: #fff
+}
+
+.about__top__left__head {
+    margin-top: 150px;
+    margin-left: 140px;
+    font-size: 48px;
+    font-weight: 500
+}
+
+.about__top__left__paragraph {
+    margin-left: 140px;
+    margin-top: 63px;
+    font-size: 16px;
+    width: 550px
+}
+
+.about__top__left__paragraph__2 {
+    margin-top: 38px
+}
+
+.about__top__right {
+    display: flex
+}
+
+.about__top__right__photo {
+    margin-top: 260px;
+    margin-left: 150px;
+    z-index: 1
+}
+
+.about__top__right__box {
+    background-color: #95c24d;
+    width: 366px;
+    margin-left: -200px
+}
+
+.about__bottom {
+    margin-left: 140px;
+    margin-top: 130px
+}
+
+.vision {
+    height: 1049px;
+    overflow: hidden
+}
+
+.vision__top {
+    display: flex
+}
+
+.vision__top__text {
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 155px;
+    margin-left: 140px
+}
+
+.vision__top__photo {
+    margin-left: 500px;
+    margin-top: 67px
+}
+
+.vision__middle {
+    display: flex;
+    margin-top: 32px
+}
+
+.vision__middle__paragraph {
+    margin-left: 140px;
+    width: 800px;
+    font-size: 18px
+}
+
+.vision__middle__photo {
+    width: 471px;
+    height: 404px;
+    overflow: hidden;
+    margin-left: 120px
+}
+
+.vision__bottom {
+    margin-top: -25px
+}
+
+.vision__bottom__box {
+    display: flex;
+    padding: 12px;
+    margin-left: 165px
+}
+
+.vision__bottom__box__text {
+    margin-left: 27px;
+    font-size: 16px
+}
+
+.page {
+    width: 100%;
+    height: 817px;
+    background: #95c24d
+}
+
+.page__photo__1 {
+    margin-left: 65%;
+    position: absolute;
+    float: right;
+    height: 330px;
+    width: 530px
+}
+
+.page__photo__2 {
+    height: 470px;
+    width: 500px;
+    overflow: hidden;
+    margin-top: -180px;
+    rotate: 0deg;
+    margin-left: -6px;
+    position: absolute
+}
+
+.page__box {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 1000px
+}
+
+.page__box__card {
+    z-index: 2;
+    width: 465px;
+    height: 530px;
+    background: #fff;
+    margin: 32px;
+    overflow: hidden
+}
+
+.page__box__card__top {
+    margin-top: 52px
+}
+
+.page__box__card__top__head {
+    position: absolute;
+    margin-left: 32px;
+    font-size: 28px;
+    width: 330px;
+    font-weight: 500;
+    height: 68px
+}
+
+.page__box__card__top__name {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 40px;
+    font-family: "Tomorrow";
+    font-size: 18px;
+    font-weight: 500
+}
+
+.page__box__card__top__q {
+    margin-top: 90px;
+    margin-left: 70%
+}
+
+.page__box__card__middle {
+    width: 260px;
+    height: 280px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 16px
+}
+
+.page__box__card__bottom {
+    display: flex
+}
+
+.page__box__card__bottom__button {
+    position: absolute;
+    font-size: 16px;
+    font-family: "Tomorrow";
+    font-weight: 500;
+    color: #95c24d;
+    height: 19px;
+    margin-left: 40px;
+    margin-top: -30px;
+    cursor: pointer
+}
+
+.page__box__card__bottom__photo {
+    margin-left: 260px;
+    margin-top: -190px
+}
+
+.contact {
+    height: 650px;
+    width: 100%
+}
+
+.contact__box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 103px;
+    background: rgba(255, 201, 40, .2666666667);
+    width: 1160px;
+    height: 390px
+}
+
+.contact__box__top {
+    display: flex
+}
+
+.contact__box__top__left {
+    width: 50%
+}
+
+.contact__box__top__left__left {
+    margin-top: 59px;
+    margin-left: 67px
+}
+
+.contact__box__top__left__left__head {
+    font-size: 40px;
+    font-weight: 500
+}
+
+.contact__box__top__left__left__boder {
+    margin-top: 30px;
+    width: 173px;
+    margin-left: -67px;
+    background-color: #cfb97d;
+    height: 1px
+}
+
+.contact__box__top__left__left__details {
+    margin-top: 30px
+}
+
+.contact__box__top__left__left__detailsphoto {
+    width: 14px;
+    height: 29px
+}
+
+.contact__box__top__left__left__photo {
+    margin-top: -160px;
+    margin-left: 350px
+}
+
+.contact__box__top__right {
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.contact__box__top__right__head {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Tomorrow"
+}
+
+.contact__box__top__right__mail {
+    margin-top: 24px
+}
+
+.contact__box__top__right__mail__box {
+    width: 434px;
+    height: 48px;
+    border: none
+}
+
+.contact__box__top__right__message {
+    margin-top: 8px
+}
+
+.contact__box__top__right__message__box {
+    width: 434px;
+    height: 74px;
+    border: none
+}
+
+.contact__box__top__right__button {
+    margin-top: 18px;
+    background: #95c24d;
+    font-size: 16px;
+    font-weight: 500;
+    width: 200px;
+    height: 48px;
+    margin-left: 235px;
+    border: none;
+    cursor: pointer
+}
+
+.contact__box__bottom {
+    display: flex
+}
+
+.contact__box__bottom__left {
+    margin-top: 59px;
+    margin-left: 180px;
+    height: 106px;
+    border-right: 2px solid #cfb97d
+}
+
+.contact__box__bottom__right {
+    margin-left: 45px;
+    margin-top: 102px
+}
+
+.contact__box__bottom__boder {
+    position: absolute;
+    width: 2px;
+    height: 106px;
+    margin-top: -105px;
+    margin-left: 250px;
+    background: #cfb97d
+}
+
+.footer {
+    height: 80px;
+    background: #23242a;
+    font-family: "Helvetica Neue"
+}
+
+.footer__left {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 140px;
+    position: absolute;
+    margin-top: 40px
+}
+
+.footer__right {
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 70%;
+    position: absolute;
+    margin-top: 40px
+}
+
+/*# sourceMappingURL=style.css.map */
