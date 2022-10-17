@@ -17,6 +17,10 @@
 ::placeholder {
     padding-left: 20px
 }
+body
+{
+    min-width: 1200px;
+}
 
 .navbar {
     display: flex;
@@ -30,7 +34,7 @@
     width: 130px;
     height: 48px;
     margin-left: 10%;
-    padding: 25px 10px
+    padding: 25px 30px
 }
 
 .navbar__block__list {
@@ -147,8 +151,8 @@
 }
 
 .service {
-    width: 100%;
     min-height: 720px;
+    /* min-width: 1400px; */
     background-color: #f4f4f4
 }
 
@@ -163,18 +167,19 @@
 .service__block {
     position: absolute;
     display: flex;
+    justify-content: space-evenly;
     margin-top: 205px;
-    width: 100%
+    
 }
 
-.service__block__left {
-    width: 65%
-}
+/* .service__block__left {
+     width: 75% 
+} */
 
 .service__block__left__top,
 .service__block__left__bottom {
     display: flex;
-    margin-left: 140px
+    margin-left: 140px;
 }
 
 .service__block__left__top__card,
@@ -276,7 +281,7 @@
 
 .utilities__box {
     display: flex;
-    margin-left: 140px;
+    justify-content: space-evenly;
     margin-top: 52px
 }
 
@@ -363,7 +368,8 @@
 }
 
 .about__bottom {
-    margin-left: 140px;
+    display: flex;
+    justify-content:space-evenly;
     margin-top: 130px
 }
 
@@ -617,18 +623,19 @@
 }
 
 .contact__box__bottom {
-    display: flex
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .contact__box__bottom__left {
     margin-top: 59px;
-    margin-left: 180px;
+    margin-left: 50px;
     height: 106px;
     border-right: 2px solid #cfb97d
 }
 
 .contact__box__bottom__right {
-    margin-left: 45px;
+    margin-left: 10px;
     margin-top: 102px
 }
 
@@ -637,7 +644,7 @@
     width: 2px;
     height: 106px;
     margin-top: -105px;
-    margin-left: 250px;
+    margin-left: 280px;
     background: #cfb97d
 }
 
