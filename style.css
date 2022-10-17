@@ -175,11 +175,15 @@ body
 /* .service__block__left {
      width: 75% 
 } */
-
+.service__block__left {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
 .service__block__left__top,
 .service__block__left__bottom {
     display: flex;
-    margin-left: 140px;
+    /* margin-left: 140px; */
 }
 
 .service__block__left__top__card,
